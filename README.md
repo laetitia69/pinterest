@@ -1,24 +1,19 @@
-# README
+# Pinterest
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Exercice de création et d'utilisation de bases de données avec une application rails, en utilisant la gem ActiveRecord.
 
-Things you may want to cover:
+#Exercice
 
-* Ruby version
+"Tu dois créer unsite en ligne où les utilisateurs peuvent créer des "pins". Chauqe pin contient une URL d'une image sur le net. Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires.
 
-* System dependencies
+" Installation des gems nécéssaires
 
-* Configuration
+Aller dans le dossier 'pinterest' puis entrer la commande :
 
-* Database creation
+$ bundle install
 
-* Database initialization
+$rails db:migrate (pour créer votre base de données)
 
-* How to run the test suite
+$rails db:seed (pour remplir votre base de données)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Projet réalisé par Laetitia69
