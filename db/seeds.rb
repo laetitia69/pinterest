@@ -14,7 +14,7 @@ end
 
 #crée 10 fakes pins
 10.times do
-	pin = Pin.create(url: Faker::Internet.url, user_id: rand(1..10))
+	pin = Pin.create(url: Faker::Company.logo, user_id: rand(1..10))
 end
 
 #crée 10 fakes comments
