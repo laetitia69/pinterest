@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-	#contient un seul :
-	has_many :pin
-	has_many :comment
+	#contient plusieurs :
+	has_many :pins
+	has_many :comments
 end
